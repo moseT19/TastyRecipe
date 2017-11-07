@@ -1,0 +1,338 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+
+  background: url(images/food.jpg) fixed;
+
+
+
+}
+#header {
+    width: 100%;
+    height: 140px;
+
+
+    background-color: #FAF7EE;
+    position: fixed;
+    top: 0px;
+    display: block;
+
+}
+#header a{
+    list-style-type: none;
+    text-decoration: none;
+}
+#header h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 300%;
+    font-weight: 300;
+    color: #f6626e;
+
+    float: left;
+    padding-top: 10px;
+}
+#header nav{
+    display: block;
+    float: left;
+}
+
+#logo {
+
+    margin-left: 15%;
+    float: left;
+
+}
+h1{
+    color: #f6626e;
+}
+#header img{
+    width: 120px;
+
+}
+.header-inner {
+    margin: 0;
+    display: block;
+    float: left;
+
+}
+
+
+.header-inner li {
+    font-size: 150%;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid #FAF7EE;
+    color: #f6626e;
+    margin-left: 10px;
+
+}
+
+.header-inner a:link {
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+.current {
+    border-bottom-color: #f6626e;
+}
+.header-inner li:hover {
+    border-bottom-color: #f6626e;
+
+}
+
+li a{
+    color: #f6626e;
+}
+.header-inner h1{
+    font-size: 350%;
+    margin-left: 10%;
+    font-weight: 300;
+}
+
+.container {
+
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin-top: 160px;
+
+}
+.space {
+    width: 100%;
+
+    height: 160px;
+}
+.recipeday {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 13%;
+    height: 80px;
+    margin: auto;
+    overflow: hidden;
+    vertical-align: top;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.recipeday img{
+    width: 100%;
+    height: 70%;
+
+}
+.recipe-image{
+    width: 50%;
+    border-radius: 2px 2px 2px 2px;
+}
+.block h1{
+    text-align: center;
+    font-size: 300%;
+}
+.left-column{
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+}
+.left-column h3{
+    text-align: center;
+    color: #f6626e;
+    font-size: 200%
+}
+.left-column p{
+    margin-left: 2em;
+
+    margin-right: 2em;
+}
+.right-column{
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.right-column h3{
+    text-align: center;
+    color: #f6626e;
+    font-size: 200%
+}
+.right-column ul{
+    margin-left: 10%;
+}
+.right-column li{
+    list-style-type: circle;
+}
+.calendar-item {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 13%;
+    height: 80px;
+    margin: auto;
+    vertical-align: top;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.block {
+
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+}
+.calendar {
+    width: 90%;
+    margin: auto;
+}
+.calendar a{
+    width: 100%;
+    height: 100%;
+}
+.calendar li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 50%;
+    width: 13%;
+    height: 100px;
+
+    display: inline-block;
+}
+.calendar-images {
+    width: 70%;
+    height: 50%;
+
+}
+#current_date{
+
+}
+#welcome-block p{
+    margin: 1em 0 0 2em;
+}
+#welcome-block img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.comments {
+    width: 100%;
+    border-top: 2px solid #f6626e;
+    padding-bottom: 30px;
+}
+.comments h3{
+    color: #f6626e;
+    margin: 1em 0 0 2em;
+    font-size: 150%;
+}
+.comment {
+    margin-left: 10%;
+    border-bottom: 2px solid #f6626e;
+
+}
+.comments h4{
+    font-style: italic;
+    font-size: 120%;
+}
+.comments p{
+    margin-left: 2em;
+}
+@media screen and (max-width: 1000px){
+    p{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 780px){
+    .header-inner li {
+        font-size: 100%;
+        list-style-type: none;
+        text-decoration: none;
+        display: inline-block;
+        border-bottom: 3px solid #FAF7EE;
+        color: #f6626e;
+        margin-left: 10px;
+
+    }
+
+    p{
+        font-size: 80%;
+    }
+    .recipe-image{
+        width: 100%;
+    }
+    .left-column{
+        width: 100%;
+        clear: both;
+    }
+    .right-column{
+        width: 100%;
+        clear: both;
+    }
+}
+@media screen and (max-width: 480px){
+    .block {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .block h1{
+        font-size: 120%;
+
+    }
+    .calendar-item{
+        height: 50px;
+    }
+    .recipeday{
+        height: 50px;
+    }
+    .recipe-image{
+        width: 100%;
+    }
+    .left-column{
+        width: 100%;
+        clear: both;
+    }
+    .right-column{
+        width: 100%;
+        clear: both;
+    }
+    .left-column h3{
+        font-size: 100%;
+        width: 100%;
+        clear: both;
+    }
+    .right-column h3{
+        font-size: 100%;
+        width: 100%;
+        clear: both;
+    }
+    #header img{
+        width:70px;
+
+    }
+    #header{
+        height:110px;
+    }
+    #header h1{
+        font-size: 160%
+    }
+    #logo{
+        margin-left: 5%;
+    }
+    .header-inner{
+        width: 70%;
+    }
+    .header-inner nav{
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    .header-inner li {
+        font-size: 100%;
+        list-style-type: none;
+        text-decoration: none;
+        display: block;
+        border-bottom: 3px solid #FAF7EE;
+        color: #f6626e;
+        margin-left: 10px;
+
+    }
+}
+

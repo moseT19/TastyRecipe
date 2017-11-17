@@ -32,6 +32,12 @@
                         </ul>
 				</nav>
 			</div>
+            <?php
+                
+                if(isset($_GET['login']) && $_GET['login'] == 'failed'){
+                    echo '<p>Wrong username or password. <p>';
+                }
+            ?>
         <button id="loginbutton" onclick="document.getElementById('id01').style.display='block'" style="/*width:auto;*/">Login</button>
         <button id="regbutton" onclick="document.getElementById('id02').style.display='block'" style="/*width:auto;*/">Register</button>
         

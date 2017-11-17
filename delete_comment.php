@@ -7,6 +7,9 @@
     $sql = "DELETE FROM comments WHERE id='$commentid'";
     $res = mysqli_query($db, $sql);
     if($res){
-        header("location: login.php#pancake-address");
+        if($_GET['recipe'] == 'pancake')
+          header("location: login.php#pancake-address");
+        else if($_GET['recipe'] == 'meatball')
+          header("location: login.php#meatball-address");
     }
 ?>

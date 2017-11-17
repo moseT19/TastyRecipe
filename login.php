@@ -150,7 +150,7 @@
                                     <h4>'.$row['username'].'</h4>
                                     <p>'.$row['comment'].'</p>';
                                   if($row['username'] == $_SESSION['login_user']){
-                                    echo '<button type="button"><a href="delete_comment.php?id='.$row['id'].'">Delete Comment</a></button></div>';
+                                    echo '<button type="button"><a href="delete_comment.php?id='.$row['id'].'&recipe=meatball">Delete Comment</a></button></div>';
                                   }
                                   else{
                                       echo '</div>';
@@ -161,7 +161,7 @@
                  ?>
                 <div id="commentform">
                  <form action="create_comment.php?recipe=meatball" method = "post">
-                     <h4>Write a comment here :</h4><textarea type = "text" name = "comment"  pattern="[a-zA-Z0-9]" class = ""></textarea><br /><br />
+                     <h4>Write a comment here :</h4><textarea type = "text" name = "comment"  pattern="[a-zA-Z0-9]+" class = ""></textarea><br /><br />
                      <button type = "submit" >Comment</button><br />
                </form>
                 </div>
@@ -209,7 +209,7 @@ At this point you can either gently fold in the blueberries, or wait until you p
                                     <h4>'.$row['username'].'</h4>
                                     <p>'.$row['comment'].'</p>';
                                   if($row['username'] == $_SESSION['login_user']){
-                                    echo '<button type="button"><a href="delete_comment.php?id='.$row['id'].'">Delete Comment</a></button></div>';
+                                    echo '<button type="button"><a href="delete_comment.php?id='.$row['id'].'&recipe=pancake">Delete Comment</a></button></div>';
                                   }
                                   else{
                                       echo '</div>';
@@ -221,7 +221,7 @@ At this point you can either gently fold in the blueberries, or wait until you p
                  ?>
                 <div id="commentform">
                  <form action="create_comment.php?recipe=pancake" method = "post">
-                     <h4>Write a comment here :</h4><textarea type = "text" name = "comment" pattern="[a-zA-Z0-9]" class = ""></textarea><br /><br />
+                     <h4>Write a comment here :</h4><textarea type = "text" name = "comment" pattern="[a-zA-Z0-9]+" class = ""></textarea><br /><br />
                      <button type = "submit" >Comment</button><br />
                </form>
                  </div>

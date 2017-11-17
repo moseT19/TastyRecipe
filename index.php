@@ -53,10 +53,10 @@
 
         <div class="container">
           
-          <input type="text" placeholder="Enter Username" name="username" required>
+          <input type="text" placeholder="Enter Username" name="username" pattern="[a-zA-Z0-9]" required>
 
           
-          <input type="password" placeholder="Enter Password" name="password" required>
+          <input type="password" placeholder="Enter Password" name="password" pattern="[a-zA-Z0-9]" required>
 
           <button id="overlayloginbutton" type="submit">Login</button>
           
@@ -78,10 +78,10 @@
 
         <div class="container">
           
-          <input type="text" placeholder="Enter Username" name="username" required>
+          <input type="text" placeholder="Enter Username" name="username" pattern="[a-zA-Z0-9]" required>
 
           
-          <input type="password" placeholder="Enter Password" name="password" required>
+          <input type="password" placeholder="Enter Password" name="password" pattern="[a-zA-Z0-9]" required>
 
           <button id="overlayloginbutton" type="submit">Register</button>
           

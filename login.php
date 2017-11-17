@@ -161,7 +161,7 @@
                  ?>
                 <div id="commentform">
                  <form action="create_comment.php?recipe=meatball" method = "post">
-                     <h4>Write a comment here :</h4><textarea type = "text" name = "comment" class = ""></textarea><br /><br />
+                     <h4>Write a comment here :</h4><textarea type = "text" name = "comment"  pattern="[a-zA-Z0-9]" class = ""></textarea><br /><br />
                      <button type = "submit" >Comment</button><br />
                </form>
                 </div>
@@ -221,7 +221,7 @@ At this point you can either gently fold in the blueberries, or wait until you p
                  ?>
                 <div id="commentform">
                  <form action="create_comment.php?recipe=pancake" method = "post">
-                     <h4>Write a comment here :</h4><textarea type = "text" name = "comment" class = ""></textarea><br /><br />
+                     <h4>Write a comment here :</h4><textarea type = "text" name = "comment" pattern="[a-zA-Z0-9]" class = ""></textarea><br /><br />
                      <button type = "submit" >Comment</button><br />
                </form>
                  </div>

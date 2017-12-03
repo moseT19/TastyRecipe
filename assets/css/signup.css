@@ -1,0 +1,75 @@
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn2,.signupbtn {
+    float: left;
+    width: 50%;
+
+}
+/* Add padding to container elements */
+.signupform {
+    padding: 16px;
+    margin: 3%;
+}
+
+.alert-success {
+    border: solid 2px;
+    border-color: black;
+    margin: 5px;
+    background: lightgreen;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+}
+
+.alert-fail {
+    border: solid 2px;
+    border-color: black;
+    margin: 5px;
+    background: red;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+
+}
+
+.signupcontainer {
+    margin: 3%;
+
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn2, .signupbtn {
+        width: 100%;
+    }
+}

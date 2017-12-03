@@ -1,0 +1,508 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+
+  background: url(../images/food.jpg) fixed;
+
+
+
+}
+#header {
+    width: 100%;
+    height: 140px;
+
+
+    background-color: #FAF7EE;
+    position: fixed;
+    top: 0px;
+    display: block;
+
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+#header a{
+    list-style-type: none;
+    text-decoration: none;
+}
+#header h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 300%;
+    font-weight: 300;
+    color: #f6626e;
+
+    float: left;
+    padding-top: 10px;
+}
+#header nav{
+    display: block;
+    float: left;
+}
+#login-form {
+    display: none;
+}
+
+#logo {
+
+    margin-left: 15%;
+    float: left;
+
+}
+h1{
+    color: #f6626e;
+}
+#header img{
+    width: 120px;
+
+}
+.header-inner {
+    margin: 0;
+    display: block;
+    float: left;
+    overflow: hidden
+
+}
+
+
+.header-inner li {
+    font-size: 150%;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid #FAF7EE;
+    color: #f6626e;
+    margin-left: 10px;
+
+}
+
+.header-inner a:link {
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+.current {
+    border-bottom-color: #f6626e;
+}
+.header-inner li:hover {
+    border-bottom-color: #f6626e;
+
+}
+
+li a{
+    color: #f6626e;
+}
+.header-inner h1{
+    font-size: 350%;
+    margin-left: 10%;
+    font-weight: 300;
+}
+
+.container {
+
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin-top: 160px;
+
+}
+.space {
+    width: 100%;
+
+    height: 160px;
+}
+.recipeday {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 13%;
+    height: 80px;
+    margin: auto;
+    overflow: hidden;
+    vertical-align: top;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.recipeday img{
+    width: 100%;
+    height: 70%;
+
+}
+.recipe-image{
+    width: 50%;
+    border-radius: 2px 2px 2px 2px;
+}
+.block h1{
+    text-align: center;
+    font-size: 300%;
+}
+.left-column{
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+}
+.left-column h3{
+    text-align: center;
+    color: #f6626e;
+    font-size: 200%
+}
+.left-column p{
+    margin-left: 2em;
+
+    margin-right: 2em;
+}
+.right-column{
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.right-column h3{
+    text-align: center;
+    color: #f6626e;
+    font-size: 200%
+}
+.right-column ul{
+    margin-left: 10%;
+}
+.right-column li{
+    list-style-type: circle;
+}
+.calendar-item {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 13%;
+    height: 80px;
+    margin: auto;
+    vertical-align: top;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.block {
+
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+}
+.calendar {
+    width: 90%;
+    margin: auto;
+}
+.calendar a{
+    width: 100%;
+    height: 100%;
+}
+.calendar li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 50%;
+    width: 13%;
+    height: 100px;
+
+    display: inline-block;
+}
+.calendar-images {
+    width: 70%;
+    height: 50%;
+
+}
+#current_date{
+
+}
+#welcome-block p{
+    margin: 1em 0 0 2em;
+}
+#welcome-block img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.comments {
+    width: 100%;
+    border-top: 2px solid #f6626e;
+    padding-bottom: 30px;
+}
+.comments h3{
+    color: #f6626e;
+    margin: 1em 0 0 2em;
+    font-size: 150%;
+}
+.comment {
+    margin-left: 10%;
+    border-bottom: 2px solid #f6626e;
+
+}
+.comment a{
+    text-decoration: none;
+    color: white;
+}
+.comments h4{
+    font-style: italic;
+    font-size: 120%;
+}
+.comments p{
+    margin-left: 2em;
+}
+#commentform {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+textarea {
+    width: 50%;
+    height: 50px;
+    resize: none;
+}
+@media screen and (max-width: 1000px){
+    p{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 780px){
+    .header-inner li {
+        font-size: 100%;
+        list-style-type: none;
+        text-decoration: none;
+        display: inline-block;
+        border-bottom: 3px solid #FAF7EE;
+        color: #f6626e;
+        margin-left: 10px;
+
+    }
+
+    p{
+        font-size: 80%;
+    }
+    .recipe-image{
+        width: 100%;
+    }
+    .left-column{
+        width: 100%;
+        clear: both;
+    }
+    .right-column{
+        width: 100%;
+        clear: both;
+    }
+}
+@media screen and (max-width: 480px){
+    .block {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .block h1{
+        font-size: 120%;
+
+    }
+    .calendar-item{
+        height: 50px;
+    }
+    .recipeday{
+        height: 50px;
+    }
+    .recipe-image{
+        width: 100%;
+    }
+    .left-column{
+        width: 100%;
+        clear: both;
+    }
+    .right-column{
+        width: 100%;
+        clear: both;
+    }
+    .left-column h3{
+        font-size: 100%;
+        width: 100%;
+        clear: both;
+    }
+    .right-column h3{
+        font-size: 100%;
+        width: 100%;
+        clear: both;
+    }
+    #header img{
+        width:70px;
+
+    }
+    #header{
+        height:110px;
+    }
+    #header h1{
+        font-size: 160%
+    }
+    #logo{
+        margin-left: 5%;
+    }
+    .header-inner{
+        width: 70%;
+    }
+    .header-inner nav{
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    .header-inner li {
+        font-size: 100%;
+        list-style-type: none;
+        text-decoration: none;
+        display: block;
+        border-bottom: 3px solid #FAF7EE;
+        color: #f6626e;
+        margin-left: 10px;
+
+    }
+}
+
+
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #f6626e;
+    color: white;
+
+
+    border: none;
+    cursor: pointer;
+
+}
+#loginbutton {
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 70px;
+    font-size: 200%;
+    font-family: 'Quicksand', sans-serif;
+    width: 14%;
+    color: white;
+}
+
+#regbutton {
+    top: 70px;
+    right: 0;
+    position: fixed;
+    height: 70px;
+    font-size: 200%;
+    font-family: 'Quicksand', sans-serif;
+    width: 14%;
+
+}
+#overlayloginbutton{
+    padding: 10px 5px 10px 5px;
+    width: 80%;
+
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f6626e;
+    margin-left: 15px;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+    min-width: 300px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+a:-webkit-any-link {
+    color: inherit;
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
